@@ -3,6 +3,9 @@ html body {
     margin: 0;
     padding: 0;
 }
+body {
+    background-image: url("../img/abstract-backdrop-background-board-129733.jpg");
+}
 section{
      display: flex;
 }
@@ -40,7 +43,7 @@ max-width: 25rem;
 }
 .imgGallery:hover {
     border: 1px solid #777;
-    opacity: 0.6;
+    opacity: 0.5;
   }
 .paginationUl {
     width: 15rem;
