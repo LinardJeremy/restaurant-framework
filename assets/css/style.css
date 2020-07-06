@@ -1,8 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Cookie&display=swap");
 body {
   margin: 0;
   padding: 0;
   display: flex;
   background-image: url(/assets/images/abstract-backdrop-background-board-129733.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 nav {
@@ -13,9 +17,7 @@ nav {
 
 .container {
   border: 1px solid red;
-  margin: 0;
-  padding: 0;
-  position: relative;
+  margin-top: 100px;
 }
 
 .container .jumbotron {
@@ -23,6 +25,11 @@ nav {
   background-size: 100% 100%;
   width: 100%;
   height: auto;
+  color: black;
+}
+
+.container h1 {
+  font-family: "cookie", cursive;
 }
 
 .container .img {
