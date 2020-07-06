@@ -3,28 +3,68 @@ html body {
     margin: 0;
     padding: 0;
 }
-body{
-    display: flex;
+section{
+     display: flex;
 }
 .navLeft {
     background-color: rgb(124, 124, 124);
     color: white;
     width: auto;
+    display: inline-block;
+    height: 100%;
+    margin-top: 0;
 }
-.imgGallery{
-    height: 25rem;
-    max-width: 25rem;
+.navLeft ul {
+    height: 35rem;
+    margin-top: 0;
 }
-.navPagin {
-padding-left: 5rem;
-margin-left: auto;
-  margin-right: auto;
-  border: solid 1px black;
-  width: 80%;
+.divGallery {
+   margin-bottom: 0;
+   padding: 0;
+}
+ .imgGallery {
+max-width: 25rem;
+ height: 25rem;
+ margin-bottom: 0;
 
- }
- .navPagin ul {
-    width: 80%;
+  }
+
+#gallery2 {
+    display: none;
+}
+#gallery3 {
+    display: none;
+}
+#gallery4 {
+    display: none;
+}
+.imgGallery:hover {
+    border: 1px solid #777;
+    opacity: 0.6;
+  }
+.paginationUl {
+    width: 15rem;
+    height: 100%;
     margin-left: auto;
-     margin-right: auto;
- }
+    margin-right: auto;
+    
+   
+
+}
+.navPagination{
+    width: 45rem;
+    display: inline-block;
+    margin-left: auto;
+    margin-top: 0;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 5rem;
+
+    
+    
+    
+    
+}
+
+ 
+    

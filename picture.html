@@ -6,8 +6,9 @@
         <link rel="stylesheet" href="assets/scss/stylePicture.css">
      </head>
      <body class="body">
-          
-        <nav class=" bg-dark navbar-dark">
+      <section>
+      <!--Menu-->
+        <nav class=" bg-dark navbar-dark navLeft">
             <!-- Brand -->
             <a class="navbar-brand" href="#">Logo</a>
           
@@ -33,30 +34,132 @@
               </li>
             </ul>
           </nav>
-        
-        <section>
-            <div class="text-center">
-            <img src="assets/img/Pizza1.jpg" class="img-thumbnail  imgGallery " alt="Pizza">
-            <img src="assets/img/Pizza2.jpg" class="img-thumbnail imgGallery" alt="Pizza">
-            <img src="assets/img/Pizza3.jpg" class="img-thumbnail imgGallery" alt="Pizza">
-                 </div>
-                     <nav class="navPagin" aria-label="navigation photo">
-                    <ul class="pagination">
-                      <li class="page-item disabled">
-                        <a class="page-link" href="#" tabindex="-1">Previous</a>
-                      </li>
-                      <li class="page-item"><a class="page-link" href="#">1</a></li>
-                      <li class="page-item active">
-                        <a class="page-link" href="#">2 <span class="sr-only">(current)</span></a>
-                      </li>
-                      <li class="page-item"><a class="page-link" href="#">3</a></li>
-                      <li class="page-item">
-                        <a class="page-link" href="#">Next</a>
-                      </li>
-                    </ul>
-                  </nav>
+          <!--Menu-->
+        <!-- Image gallery -->
 
-          </section>
+  <div class="row divGallery">
+<div class="col-12 gallery text-center" id="gallery">
+  <a href="assets/img/Pizza1.jpg">
+    <img src="assets/img/Pizza1.jpg" class=" img-thumbnail  imgGallery " alt="Pizza">
+    </a>
+    <a href="assets/img/Pizza2.jpg">
+    <img src="assets/img/Pizza2.jpg" class=" img-thumbnail imgGallery" alt="Pizza">
+  </a>
+  <a href="assets/img/Pizza3.jpg">
+  <img src="assets/img/Pizza3.jpg" class=" img-thumbnail imgGallery" alt="Pizza" >
+  </a>
+</div>
+<div class="col-12 gallery text-center" id="gallery2">
+  <a href="assets/img/Pizza4.jpg">
+    <img src="assets/img/Pizza4.jpg" class="img-thumbnail imgGallery page2" alt="Pizza" id="p4">
+    </a>
+    <a href="assets/img/Pizza5.jpg">
+    <img src="assets/img/Pizza5.jpg" class="img-thumbnail imgGallery page2" alt="Pizza" id="p5">
+    </a>
+    <a href="assets/img/Pizza6.jpeg">
+    <img src="assets/img/Pizza6.jpeg" class="img-thumbnail imgGallery page2" alt="Pizza" id="p6">
+     </a>
+</div>
+<div class="col-12 gallery text-center" id="gallery3">
+  <a href="assets/img/Pizza7.jpg">
+  <img src="assets/img/Pizza7.jpg" class="col-4 img-thumbnail imgGallery page3" alt="Pizza" id="p7">
+  </a>
+  <a href="assets/img/Pizza8.jpg">
+    <img src="assets/img/Pizza8.jpg" class="col-4 img-thumbnail imgGallery page3" alt="Pizza" id="p8">
+    </a>
+    <a href="assets/img/Pizza9.jpg">
+    <img src="assets/img/Pizza9.jpg" class="col-4 img-thumbnail imgGallery page3" alt="Pizza" id="p9">
+    </a>
+</div>
+<div class="col-12 gallery text-center" id="gallery4">
+    <div class="col-4"></div>
+    <a href="assets/img/Pizza10.jpg">
+    <img src="assets/img/Pizza10.jpg" class="img-thumbnail imgGallery page4" alt="Pizza" id="p10">
+     </a>
+    <div class="col-4"></div>
+    
 
+</div>
+       <!-- pagination -->
+       <nav aria-label="Page navigation" class="text-center navPagination">
+        <ul class="pagination justify-content-center paginationUl">
+          <li class="page-item"><a onclick=myfunctionBis() class="page-link" href="#">1</a></li>
+          <li class="page-item"><a onclick=myfunction() class="page-link" href="#">2</a></li>
+          <li class="page-item"><a onclick=myfunction2() class="page-link" href="#">3</a></li>
+          <li class="page-item"><a onclick=myfunction3() class="page-link" href="#">4</a></li>
+    
+      
+        </ul>
+      </nav>
+    <!-- Pagination -->
+</div>
+    <!-- Image gallery -->
+
+  </section>
      </body>
+     <script>
+    let x = document.getElementById("gallery");
+       let y= document.getElementById("gallery2");
+       let z= document.getElementById("gallery3");
+       let t= document.getElementById("gallery4");
+     function myfunction() {
+       
+       if (getComputedStyle(x).display != "none" || getComputedStyle(z).display != "none" || getComputedStyle(t).display != "none") {
+          x.style.display = "none";
+          z.style.display = "none";
+          t.style.display = "none";
+          y.style.display = "block";
+       }
+       else {
+         y.style.display ="block";
+       }
+      
+     }
+     function myfunctionBis() {
+       
+       if (getComputedStyle(y).display != "none" || getComputedStyle(z).display != "none" || getComputedStyle(t).display != "none") {
+          y.style.display = "none";
+          z.style.display = "none";
+          t.style.display = "none";
+          x.style.display = "block";
+       }
+       else {
+         x.style.display ="block";
+       }
+      
+     }    
+    
+
+     function myfunction2() {
+       if (getComputedStyle(x).display != "none" || getComputedStyle(y).display != "none" || getComputedStyle(t).display != "none") {
+          x.style.display = "none";
+          y.style.display = "none";
+          t.style.display = "none";
+          z.style.display = "block";
+
+     }
+     else {
+       z.style.display= "block";
+     }
+     
+
+     }
+     function myfunction3() {
+      if (getComputedStyle(x).display != "none" || getComputedStyle(y).display != "none" || getComputedStyle(z).display != "none") {
+          x.style.display = "none";
+          y.style.display = "none";
+          z.style.display = "none";
+          t.style.display = "block";
+
+     }
+     else {
+       t.style.display= "block";
+     }
+     
+     }
+
+     
+
+
+  </script>
 </html>
