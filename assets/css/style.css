@@ -54,4 +54,14 @@ h2 {
   width: 16rem;
   z-index: -1;
 }
+
+@media (max-width: 768px) {
+  .MW {
+    box-shadow: none;
+  }
+  .container img {
+    width: 30rem;
+    z-index: -1;
+  }
+}
 /*# sourceMappingURL=style.css.map */
