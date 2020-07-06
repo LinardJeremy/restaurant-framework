@@ -22,14 +22,12 @@ img{
     inset 0 0 0.4vw  0.2vw #e97272,
     inset 0 0 0.5vw  0.2vw #fff7f7;
     border-radius: 1.5rem;
-  
     .PM{
         color: #5a0101;
-        font-size:200px;
         font-weight: bold;
         font-family: 'Cookie', cursive;
         font-style: italic;
-        font-size: 6.4em;
+        font-size: 5.4em;
         bottom: 1.2em;
         text-shadow: 
         .1vw 0vw .25vw #ffd8d8, .2vw 0vw .25vw #ffd8d8, .4vw 0vw .25vw #ffd8d8, 
@@ -77,15 +75,34 @@ h2 {
     }
 }
 
+@media (max-width: 525px) {
+    .MW .PM{
+        font-size: 3.4em;
+        box-shadow: none;
+    }
+    .container .pizza{
+        top: 0rem;
+        width:60vw;
+        left: 10vw;
+        z-index: -1;
 
+    }
 
-  @media (max-width: 768px) {
+  }
+
+  @media (max-width: 768px)  {
     .MW {
         box-shadow: none;
+        display: block;
     }
     .container img{
         width: 30rem;
         z-index: -1;
 
     }
+    .MW .PM{
+        font-size: 3.4em;
+        box-shadow: none;
+    }
+    
   }
