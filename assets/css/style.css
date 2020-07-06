@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  background-image: url(/assets/images/abstract-backdrop-background-board-129733.jpg);
+}
+
+nav {
+  background-color: #7c7c7c;
+  color: white;
+  width: auto;
+}
+
+.container {
+  border: 1px solid red;
+}
+/*# sourceMappingURL=style.css.map */
