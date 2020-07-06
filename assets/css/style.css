@@ -13,5 +13,57 @@ nav {
 
 .container {
   border: 1px solid red;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+.container .jumbotron {
+  background: url("/assets/images/restaurant.jpg") no-repeat center center;
+  background-size: 100% 100%;
+  width: 100%;
+  height: auto;
+}
+
+.container .img {
+  width: 100%;
+  height: auto;
+}
+
+.container .btn1 {
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #7c7c7c;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.container .btn1:hover {
+  background-color: black;
+}
+
+.container .btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #7c7c7c;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.container .btn:hover {
+  background-color: black;
 }
 /*# sourceMappingURL=style.css.map */
