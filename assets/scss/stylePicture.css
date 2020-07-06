@@ -25,6 +25,8 @@ section {
   padding: 0; }
 
 .imgGallery {
+  margin-left: 0;
+  margin-right: 0;
   max-width: 25rem;
   height: 25rem;
   margin-bottom: 0; }
@@ -56,5 +58,11 @@ section {
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 5rem; }
+
+.logoImg {
+  width: 75px;
+  height: 75px;
+  margin-left: 20px;
+  margin-right: auto; }
 
 /*# sourceMappingURL=stylePicture.css.map */
