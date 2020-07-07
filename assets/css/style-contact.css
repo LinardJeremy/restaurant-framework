@@ -2,12 +2,8 @@ body {
   background-image: url("/assets/img/background-board.jpg");
 }
 
-.contLimits {
-  padding: 5vh 10vw 5vh 10vw;
-}
-
 .container {
-  border: 2px solid black;
+  border: 2px solid #26272C;
   border-radius: 6px;
   background-color: #78A6C8;
   opacity: 0.95;
@@ -17,7 +13,7 @@ body {
 }
 
 .btn {
-  border: 2px solid black;
+  border: 2px solid #26272C;
   border-radius: 6px;
   background-color: #787EC8;
   margin-top: 2vh;
