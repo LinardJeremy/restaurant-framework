@@ -80,5 +80,9 @@ h2 {
     font-size: 3.4em;
     box-shadow: none;
   }
+  .resMenu{
+    display: block;
+  }
 }
+
 /*# sourceMappingURL=styleMenu.css.map */
