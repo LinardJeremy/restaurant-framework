@@ -5,7 +5,8 @@ html body {
 }
 body {
     background-image: url("../img/abstract-backdrop-background-board-129733.jpg");
-    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 // style navLeft
 .navLeft {
@@ -18,7 +19,9 @@ body {
 .navLeft ul {
      height: 35rem;
     margin-top: 0;
+    
 }
+
 .logoImg {
     margin-left: 20px;
     margin-right: auto;
