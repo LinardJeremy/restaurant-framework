@@ -7,7 +7,7 @@ body {
 }
 
 .container {
-  border: 2px solid grey;
+  border: 2px solid black;
   border-radius: 6px;
   background-color: #78A6C8;
   opacity: 0.95;
@@ -17,7 +17,7 @@ body {
 }
 
 .btn {
-  border: 2px solid grey;
+  border: 2px solid black;
   border-radius: 6px;
   background-color: #787EC8;
   margin-top: 2vh;
