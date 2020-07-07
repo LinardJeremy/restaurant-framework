@@ -5,6 +5,7 @@ html body {
 }
 body {
     background-image: url("../img/abstract-backdrop-background-board-129733.jpg");
+    background-size: 100% 100%;
 }
 // style navLeft
 .navLeft {
@@ -18,9 +19,7 @@ body {
      height: 35rem;
     margin-top: 0;
 }
-.logoImg{
-    width: 75px;
-    height: 75px;
+.logoImg {
     margin-left: 20px;
     margin-right: auto;
 }
@@ -38,9 +37,9 @@ section{
  .imgGallery {
 margin-left: 0;
 margin-right: 0;
-max-width: 25rem;
- height: 25rem;
+ height: 20em;
  margin-bottom: 0;
+ width: 20em;
 
   }
 
@@ -62,13 +61,10 @@ max-width: 25rem;
 
 // style Pagination
 .paginationUl {
-    width: 15rem;
-    height: 100%;
     margin-left: auto;
     margin-right: auto;
 }
 .navPagination{
-    width: 45rem;
     display: inline-block;
     margin-left: auto;
     margin-top: 0;

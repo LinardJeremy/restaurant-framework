@@ -3,7 +3,8 @@ html body {
   padding: 0; }
 
 body {
-  background-image: url("../img/abstract-backdrop-background-board-129733.jpg"); }
+  background-image: url("../img/abstract-backdrop-background-board-129733.jpg");
+  background-size: 100% 100%; }
 
 .navLeft {
   background-color: #7c7c7c;
@@ -17,8 +18,6 @@ body {
   margin-top: 0; }
 
 .logoImg {
-  width: 75px;
-  height: 75px;
   margin-left: 20px;
   margin-right: auto; }
 
@@ -32,9 +31,9 @@ section {
 .imgGallery {
   margin-left: 0;
   margin-right: 0;
-  max-width: 25rem;
-  height: 25rem;
-  margin-bottom: 0; }
+  height: 20em;
+  margin-bottom: 0;
+  width: 20em; }
 
 #gallery2 {
   display: none; }
@@ -50,13 +49,10 @@ section {
   opacity: 0.5; }
 
 .paginationUl {
-  width: 15rem;
-  height: 100%;
   margin-left: auto;
   margin-right: auto; }
 
 .navPagination {
-  width: 45rem;
   display: inline-block;
   margin-left: auto;
   margin-top: 0;
