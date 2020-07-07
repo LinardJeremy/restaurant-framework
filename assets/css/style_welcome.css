@@ -5,7 +5,7 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background-image: url("/assets/images/abstract-backdrop-background-board-129733.jpg");
+  background-image: url("../images/abstract-backdrop-background-board-129733.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -30,7 +30,7 @@ nav {
 }
 
 .container .jumbotron {
-  background: url("/assets/images/presentation.jpg") no-repeat center center;
+  background: url("../images/presentation.jpg") no-repeat center center;
   position: relative;
   background-size: cover;
   height: auto;
