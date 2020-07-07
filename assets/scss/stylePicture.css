@@ -5,9 +5,6 @@ html body {
 body {
   background-image: url("../img/abstract-backdrop-background-board-129733.jpg"); }
 
-section {
-  display: flex; }
-
 .navLeft {
   background-color: #7c7c7c;
   color: white;
@@ -19,6 +16,15 @@ section {
 .navLeft ul {
   height: 35rem;
   margin-top: 0; }
+
+.logoImg {
+  width: 75px;
+  height: 75px;
+  margin-left: 20px;
+  margin-right: auto; }
+
+section {
+  display: flex; }
 
 .divGallery {
   margin-bottom: 0;
@@ -58,11 +64,5 @@ section {
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 5rem; }
-
-.logoImg {
-  width: 75px;
-  height: 75px;
-  margin-left: 20px;
-  margin-right: auto; }
 
 /*# sourceMappingURL=stylePicture.css.map */
