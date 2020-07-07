@@ -12,11 +12,10 @@ body {
     color: white;
     width: auto;
     display: inline-block;
-    height: 100%;
     margin-top: 0;
 }
 .navLeft ul {
-    height: 35rem;
+     height: 35rem;
     margin-top: 0;
 }
 .logoImg{
@@ -80,7 +79,9 @@ max-width: 25rem;
 // style Pagination
 
 // style footer
-
+.footer {
+    background-color: rgb(230, 218, 218);
+}
 
 // style footer
 

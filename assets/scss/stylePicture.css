@@ -10,7 +10,6 @@ body {
   color: white;
   width: auto;
   display: inline-block;
-  height: 100%;
   margin-top: 0; }
 
 .navLeft ul {
@@ -64,5 +63,8 @@ section {
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 5rem; }
+
+.footer {
+  background-color: #e6dada; }
 
 /*# sourceMappingURL=stylePicture.css.map */
