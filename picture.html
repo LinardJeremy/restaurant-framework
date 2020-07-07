@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <link rel="stylesheet" href="assets/scss/stylePicture.css">
+        <title>Gallerie Photo</title>
+      
+
+     </head>
+     <body class="body">
+      <section>
+      <!--Menu-->
+        <nav class=" bg-dark navbar-dark navLeft h-100">
+            <!-- Brand -->
+            <a class="navbar-brand" href="#"><img src="assets/img/Logo.png" style="width: 13vw;" class="logoImg" alt="Logo"></a>
+            <!-- <a href="https://fr.vecteezy.com/vecteur-libre/pizza-logo">Pizza Logo Vecteurs par Vecteezy</a> -->
+          
+            <!-- Links -->
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Adress</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+          </nav>
+          <!--Menu-->
+        <!-- Image gallery -->
+
+  <div class="row divGallery ml-auto">
+<div class="col-12 gallery" id="gallery">
+  <a target="_blank" href="assets/img/Pizza1.jpg">
+    <img src="assets/img/Pizza1.jpg" class="img-thumbnail  imgGallery " alt="Pizza">
+    </a>
+    <a target="_blank" href="assets/img/Pizza2.jpg">
+    <img src="assets/img/Pizza2.jpg" class=" img-thumbnail imgGallery" alt="Pizza">
+  </a>
+  <a target="_blank" href="assets/img/Pizza3.jpg">
+  <img src="assets/img/Pizza3.jpg" class="img-thumbnail imgGallery" alt="Pizza" >
+  </a>
+</div>
+<div class="col-12 gallery" id="gallery2">
+  <a target="_blank" href="assets/img/Pizza4.jpg">
+    <img src="assets/img/Pizza4.jpg" class="img-thumbnail imgGallery page2" alt="Pizza" id="p4">
+    </a>
+    <a target="_blank" href="assets/img/Pizza5.jpg">
+    <img src="assets/img/Pizza5.jpg" class="img-thumbnail imgGallery page2" alt="Pizza" id="p5">
+    </a>
+    <a target="_blank" href="assets/img/Pizza6.jpeg">
+    <img src="assets/img/Pizza6.jpeg" class="img-thumbnail imgGallery page2" alt="Pizza" id="p6">
+     </a>
+</div>
+<div class="col-12 gallery" id="gallery3">
+  <a target="_blank" href="assets/img/Pizza7.jpg">
+  <img src="assets/img/Pizza7.jpg" class="img-thumbnail imgGallery page3" alt="Pizza" id="p7">
+  </a>
+  <a target="_blank" href="assets/img/Pizza8.jpg">
+    <img src="assets/img/Pizza8.jpg" class="img-thumbnail imgGallery page3" alt="Pizza" id="p8">
+    </a>
+    <a target="_blank" href="assets/img/Pizza9.jpg">
+    <img src="assets/img/Pizza9.jpg" class=" img-thumbnail imgGallery page3" alt="Pizza" id="p9">
+    </a>
+</div>
+<div class="col-12 gallery" id="gallery4">
+  <a target="_blank" href="assets/img/Pizza11.jpg">
+    <img src="assets/img/Pizza11.jpg" class=" img-thumbnail imgGallery page4" alt="Pizza">
+     </a>
+    <a target="_blank" href="assets/img/Pizza10.jpg">
+    <img src="assets/img/Pizza10.jpg" class=" img-thumbnail imgGallery page4" alt="Pizza">
+     </a>
+     <a target="_blank" href="assets/img/Pizza12.jpg">
+      <img src="assets/img/Pizza12.jpg" class=" img-thumbnail imgGallery page4" alt="Pizza">
+       </a>
+    
+
+</div>
+       <!-- pagination -->
+       <nav aria-label="Page navigation" class=" navPagination">
+        <ul class="pagination  paginationUl">
+          <li class="page-item"><a onclick=myfunctionBis() class="page-link" href="#">1</a></li>
+          <li class="page-item"><a onclick=myfunction() class="page-link" href="#">2</a></li>
+          <li class="page-item"><a onclick=myfunction2() class="page-link" href="#">3</a></li>
+          <li class="page-item"><a onclick=myfunction3() class="page-link" href="#">4</a></li>
+    
+      
+        </ul>
+      </nav>
+    <!-- Pagination -->
+</div>
+    <!-- Image gallery -->
+
+  </section>
+
+<!-- Footer -->
+<div class="footer-v1 footer">
+  <div class="footer no-margin">
+     <div class="container">
+          <div class="row">
+              <div class="col-md-3">
+                  <div class="headline"><p>Exams</p></div>
+                  <ul class="list-unstyled link-list">
+                      <li><a href="#">Exam1</a></li>
+                      <li><a href="#">Exam2</a></li>
+                      <li><a href="#">Exam3/a></li>
+                  </ul>
+              </div>
+              <div class="col-md-3">
+                  <div class="headline"><p>Resources</p></div>
+                  <ul class="list-unstyled link-list">
+                      <li><a href="#">Blog</a></li>
+                  </ul>
+              </div>
+              <div class="col-md-3">
+          <div class="headline"><p>Support</p></div>
+          <address>
+          <ul class="list-unstyled link-list">
+              <li><a href="#">Contact Us</a></li>
+              <li>
+              <a href="#"><i class="fa fa-envelope"></i>support@company.com</a>
+              </li>
+          </ul>
+          </address>
+      </div>
+              <div class="col-md-3">
+                  <div class="headline"><p>Company</p></div>
+                  <ul class="list-unstyled link-list">
+          <li><a href="#">About Us</a></li>
+          <li> <a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms of Use</a></li>
+          <li><a href="#">FAQs</a></li>
+          <li><a href="#">Cancellation/Rescheduling policy</a></li>
+          </ul>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+<!-- Footer -->
+
+     </body>
+     <script>
+    let x = document.getElementById("gallery");
+       let y= document.getElementById("gallery2");
+       let z= document.getElementById("gallery3");
+       let t= document.getElementById("gallery4");
+     function myfunction() {
+       
+       if (getComputedStyle(x).display != "none" || getComputedStyle(z).display != "none" || getComputedStyle(t).display != "none") {
+          x.style.display = "none";
+          z.style.display = "none";
+          t.style.display = "none";
+          y.style.display = "block";
+       }
+       else {
+         y.style.display ="block";
+       }
+      
+     }
+     function myfunctionBis() {
+       
+       if (getComputedStyle(y).display != "none" || getComputedStyle(z).display != "none" || getComputedStyle(t).display != "none") {
+          y.style.display = "none";
+          z.style.display = "none";
+          t.style.display = "none";
+          x.style.display = "block";
+       }
+       else {
+         x.style.display ="block";
+       }
+      
+     }    
+    
+
+     function myfunction2() {
+       if (getComputedStyle(x).display != "none" || getComputedStyle(y).display != "none" || getComputedStyle(t).display != "none") {
+          x.style.display = "none";
+          y.style.display = "none";
+          t.style.display = "none";
+          z.style.display = "block";
+
+     }
+     else {
+       z.style.display= "block";
+     }
+     
+
+     }
+     function myfunction3() {
+      if (getComputedStyle(x).display != "none" || getComputedStyle(y).display != "none" || getComputedStyle(z).display != "none") {
+          x.style.display = "none";
+          y.style.display = "none";
+          z.style.display = "none";
+          t.style.display = "block";
+
+     }
+     else {
+       t.style.display= "block";
+     }
+     
+     }
+
+     
+
+
+  </script>
+</html>

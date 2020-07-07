@@ -1,0 +1,67 @@
+html body {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background-image: url("../img/abstract-backdrop-background-board-129733.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.navLeft {
+  background-color: #7c7c7c;
+  color: white;
+  width: auto;
+  display: inline-block;
+  margin-top: 0; }
+
+.navLeft ul {
+  height: 35rem;
+  margin-top: 0; }
+
+.logoImg {
+  margin-left: 20px;
+  margin-right: auto; }
+
+section {
+  display: flex; }
+
+.divGallery {
+  margin-bottom: 0;
+  padding: 0; }
+
+.imgGallery {
+  margin-left: 0;
+  margin-right: 0;
+  height: 20em;
+  margin-bottom: 0;
+  width: 20em; }
+
+#gallery2 {
+  display: none; }
+
+#gallery3 {
+  display: none; }
+
+#gallery4 {
+  display: none; }
+
+.imgGallery:hover {
+  border: 1px solid #777;
+  opacity: 0.5; }
+
+.paginationUl {
+  margin-left: auto;
+  margin-right: auto; }
+
+.navPagination {
+  display: inline-block;
+  margin-left: auto;
+  margin-top: 0;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 5rem; }
+
+.footer {
+  background-color: #e6dada; }
+
+/*# sourceMappingURL=stylePicture.css.map */
