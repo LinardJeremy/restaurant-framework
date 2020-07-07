@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Cookie&display=swap");
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    background-image: url(/assets/images/abstract-backdrop-background-board-129733.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+nav {
+    background-color: rgb(124, 124, 124);
+    color: white;
+    width: auto;
+}
+
+.container {
+    /*border: 1px solid red;*/
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+    .jumbotron {
+        background: url("/assets/images/presentation.jpg") no-repeat center
+            center;
+        position: relative;
+
+        -webkit-background-size: 100rem 100rem;
+        -moz-background-size: 100rem 100rem;
+        -o-background-size: 100rem 100rem;
+        background-size: cover;
+        height: auto;
+        color: white;
+    }
+    h1 {
+        font-family: "cookie", cursive;
+    }
+
+    img {
+        max-width: 100%;
+    }
+
+    .btn1 {
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        background-color: rgb(124, 124, 124);
+        color: white;
+        font-size: 16px;
+        padding: 12px 24px;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+        text-decoration: none;
+    }
+
+    .btn1:hover {
+        background-color: black;
+    }
+    .btn {
+        position: relative;
+        top: -50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        background-color: rgb(124, 124, 124);
+        color: white;
+        font-size: 16px;
+        padding: 12px 24px;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+        text-decoration: none;
+    }
+    .btn:hover {
+        background-color: black;
+    }
+    /*.ml-3 {
+        margin-left: ($spacer * 0.25) !important;
+    }
+    .mt-4 {
+        margin-left: ($spacer * 0.25) !important;
+    }*/
+    .reservation {
+        text-align: center;
+        color: black;
+    }
+
+    table {
+        border-collapse: collapse;
+        border-spacing: 0;
+        margin: auto;
+    }
+    tbody {
+        vertical-align: middle;
+    }
+    tr {
+        display: table-row;
+        vertical-align: inherit;
+    }
+    td {
+        padding: 15px 12px 0 0;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .container {
+        font-size: 2.2em;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        font-size: 2em;
+    }
+}
