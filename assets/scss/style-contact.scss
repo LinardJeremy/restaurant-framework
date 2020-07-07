@@ -15,26 +15,17 @@ body{
 
 .container{
     @include border;
-    background-color: lightsalmon;
+    background-color: #78A6C8;
+    opacity: 0.95;
     text-align: center;
     width: 35vw;
     padding-bottom: 3.5vh;
     
 }
 
-[class*="lg-8"] {
-    @include border;
-    line-height: 40px;
-    text-align: left;
-    background-color: lightblue;
-    margin-bottom: 1.5vh;
-    padding-top: 1.75vh;
-    padding-bottom: 1.75vh;
-  }
 
-
-button{
+.btn{
     @include border;
-    background-color: lightcoral;
+    background-color: #787EC8;
     margin-top: 2vh;
 }
