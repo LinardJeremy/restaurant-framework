@@ -2,8 +2,10 @@
 body {
   margin: 0;
   padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  background-image: url(/assets/images/abstract-backdrop-background-board-129733.jpg);
+  background-image: url("/assets/images/abstract-backdrop-background-board-129733.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -44,7 +46,8 @@ nav {
 }
 
 .container .btn1 {
-  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   background-color: #7c7c7c;
   color: white;
@@ -64,7 +67,8 @@ nav {
   position: relative;
   top: -50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   background-color: #7c7c7c;
   color: white;

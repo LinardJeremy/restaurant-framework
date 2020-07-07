@@ -8,6 +8,10 @@ body{
     
 }
 
+section{
+    display: flex;
+}
+
 
 .container{
     @include border;
