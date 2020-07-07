@@ -15,38 +15,28 @@
   <body>
       
 
-   <section>
+   
 
     <div class="row">
-        <div class="col-2 bg-dark">
-            <!--side Menu-->
-          <nav class="col navbar-dark">
-            <!-- Brand -->
-            <a class="navbar-brand" href="#"><img src="./assets/img/Logo.png" style="width:200px; height:200px;" alt="Logo pizzeria"></a>
- 
-            <!-- Links -->
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="./index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="./picture.html">Gallery</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active" href="./menu.html" >Menu</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="./restaurant.html">Adress</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="./contact.html">Contact</a>
-                </li>
-            </ul>
-          </nav>
-        </div>
+
+        <header class="masthead mb-auto bg-warning">
+            <div class="inner">
+              <div class="row headerRow">
+                <img class="imageLogo" src="./assets/img/Logo.png" alt="logo">
+              <nav class="nav nav-masthead justify-content-center align-self-end">
+                <a class="nav-link text-dark active" href="welcome.html">Home</a>
+                <a class="nav-link text-dark" href="menu.html">Menu</a>
+                <a class="nav-link text-dark" href="picture.html">Pictures</a>
+                <a class="nav-link text-dark" href="restaurant.html">Restaurant</a>
+                <a class="nav-link text-dark" href="contact.html">Contact</a>
+              </nav>
+              </div>
+            </div>
+        </header>
+    </div>    
         
-    
-  <div class="container">
+  <div class="row formRow"> 
+   <div class="container">
 
     <form role="form">
     
@@ -103,7 +93,13 @@
     </form>
 
   </div>
-</section>
+ </div>
+
+ <footer class="mt-auto">
+    <div class="inner">
+      <p class="textFoot text-dark bg-warning">Pizza time Restaurant <a href="https://getbootstrap.com/">Bootstrap</a>, by Team 2.</p>
+    </div>
+ </footer>
 
   </body>
 </html>
