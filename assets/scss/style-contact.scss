@@ -8,11 +8,6 @@ body{
     
 }
 
-section{
-    display: flex;
-}
-
-
 .container{
     @include border;
     background-color: #78A6C8;
