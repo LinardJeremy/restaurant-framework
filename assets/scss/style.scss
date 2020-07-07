@@ -16,26 +16,30 @@ nav {
 }
 
 .container {
-    border: 1px solid red;
+    /*border: 1px solid red;*/
     margin-top: 100px;
+    margin-bottom: 100px;
 
     .jumbotron {
-        background: url("/assets/images/restaurant.jpg") no-repeat center center;
-        -webkit-background-size: 100% 100%;
-        -moz-background-size: 100% 100%;
-        -o-background-size: 100% 100%;
-        background-size: 100% 100%;
-        width: 100%;
+        background: url("/assets/images/presentation.jpg") no-repeat center
+            center;
+        position: relative;
+
+        -webkit-background-size: 100rem 100rem;
+        -moz-background-size: 100rem 100rem;
+        -o-background-size: 100rem 100rem;
+        background-size: cover;
         height: auto;
-        color: black;
+        color: white;
     }
     h1 {
         font-family: "cookie", cursive;
     }
-    .img {
-        width: 100%;
-        height: auto;
+
+    img {
+        max-width: 100%;
     }
+
     .btn1 {
         transform: translate(-50%, -50%);
         -ms-transform: translate(-50%, -50%);
@@ -48,12 +52,13 @@ nav {
         border-radius: 5px;
         text-decoration: none;
     }
+
     .btn1:hover {
         background-color: black;
     }
     .btn {
-        position: absolute;
-        top: 50%;
+        position: relative;
+        top: -50%;
         left: 50%;
         transform: translate(-50%, -50%);
         -ms-transform: translate(-50%, -50%);
@@ -68,5 +73,43 @@ nav {
     }
     .btn:hover {
         background-color: black;
+    }
+    /*.ml-3 {
+        margin-left: ($spacer * 0.25) !important;
+    }
+    .mt-4 {
+        margin-left: ($spacer * 0.25) !important;
+    }*/
+    .reservation {
+        text-align: center;
+        color: black;
+    }
+
+    table {
+        border-collapse: collapse;
+        border-spacing: 0;
+        margin: auto;
+    }
+    tbody {
+        vertical-align: middle;
+    }
+    tr {
+        display: table-row;
+        vertical-align: inherit;
+    }
+    td {
+        padding: 15px 12px 0 0;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .container {
+        font-size: 2.2em;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        font-size: 2em;
     }
 }

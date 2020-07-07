@@ -18,48 +18,14 @@
         <title>Welcome</title>
     </head>
     <body>
-        <!--Menu-->
-        <nav class="bg-dark navbar-dark">
-            <!-- Brand -->
-            <a class="navbar-brand" href="#">Logo</a>
-
-            <!-- Links -->
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Link 1</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Link 2</a>
-                </li>
-
-                <!-- Dropdown -->
-                <li class="nav-item dropdown">
-                    <a
-                        class="nav-link dropdown-toggle"
-                        href="#"
-                        id="navbardrop"
-                        data-toggle="dropdown"
-                    >
-                        Dropdown link
-                    </a>
-                    <div class="dropdown-menu">
-                        <a class="dropdown-item" href="#">Link 1</a>
-                        <a class="dropdown-item" href="#">Link 2</a>
-                        <a class="dropdown-item" href="#">Link 3</a>
-                    </div>
-                </li>
-            </ul>
-        </nav>
-        <!--Menu-->
-
         <div class="container">
             <div class="row">
-                <div class="jumbotron border rounded">
+                <div class="jumbotron col-sm-12 col-md-12 col-lg-12">
                     <h1 class="display-4">Pizza Time</h1>
                     <p class="lead">
                         Best pizza, best value.
                     </p>
-                    <hr class="my-4" />
+
                     <p>
                         Nous vous souhaitons un bon confinement, soyez prudent
                         et prenez soins de vous.
@@ -69,19 +35,85 @@
                     >
                 </div>
 
-                <div class="col-6 border rounded">
+                <div class="col-sm-12 col-md-12 col-lg-5" style="padding: 0;">
                     <img
+                        class="img-fluid. max-width: 100% height: auto"
                         src="/assets/images/Two_pizzas,_one_in_the_foreground,_and_one_in_the_background.jpg"
-                        alt="Two_pizzas"
+                        alt="pizzas"
                         width="100%"
                         height="100%"
                     />
+
                     <a class="btn btn-primary btn-lg" href="#" role="button">
                         Menu
                     </a>
                 </div>
-                <div class="col-5 offset-1 border rounded"></div>
+                <div
+                    class="col-sm-12 col-md-12 col-lg-7"
+                    style="background-color: white;"
+                >
+                    <div class="reservation">
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td>Lun-Jeu</td>
+                                    <td>17h-22H</td>
+                                </tr>
+                                <tr>
+                                    <td>Ven & Sam</td>
+                                    <td>17h-23H</td>
+                                </tr>
+                                <tr>
+                                    <td>Dim</td>
+                                    <td>17h-21H</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <style>
+                            #link {
+                                color: #00856c;
+                            } /* CSS link color */
+                        </style>
+                        <br />
+                        <p>
+                            <span class="bold">On livre aussi!</span>&nbsp;
+                            Livraison dès maintenant
+                            <a id="link" href="https://www.takeaway.com/be-fr"
+                                >Ici</a
+                            >
+                        </p>
+                        <p>
+                            <span class="bold">
+                                Planifier une fête? Hôtez-le ici.</span
+                            >
+                            &nbsp;Appellez 081/12.12.12 or
+                            <a
+                                id="link"
+                                href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSKkxCWPxDMhxCQwfZcrtwDgvRpRrNRsjvWjBXssSxdljrTMWcRHLRJQWwKkCXrfRXNfFsPB"
+                                >Contact nous par e-mail</a
+                            >
+                        </p>
+                        <p>
+                            <span class="bold"> Parking gratuit.</span>
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
+        <script
+            src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+            integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+            crossorigin="anonymous"
+        ></script>
     </body>
 </html>
