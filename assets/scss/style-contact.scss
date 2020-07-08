@@ -8,8 +8,9 @@ body{
     
 }
 
-section{
-    display: flex;
+.formRow{
+    margin-top: 10em;
+
 }
 
 
@@ -28,4 +29,9 @@ section{
     @include border;
     background-color: #787EC8;
     margin-top: 2vh;
+}
+
+.textFoot{
+    text-align: center;
+    margin: 20em 0em 0em 0em;
 }
