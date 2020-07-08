@@ -5,12 +5,15 @@ body {
 
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(../img/IMG_2265.jpg);
-    display: flex;
-    color: #fff;
+    background-image: url("../images/abstract-backdrop-background-board-129733.jpg");
+    font-weight: bold;
     text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
     box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
     bottom: 20rem;
+}
+.lead {
+  color: black;
+    font-weight: bold;
 }
 .cover-container {
     max-width: 42em;
