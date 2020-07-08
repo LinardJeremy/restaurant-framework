@@ -3,42 +3,36 @@
     <head>
         <meta charset="utf-8">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-        <link rel="stylesheet" href="assets/scss/stylePicture.css">
+         <link rel="stylesheet" href="assets/scss/stylePicture.css">
         <title>Gallerie Photo</title>
       
 
      </head>
      <body class="body">
-      <section>
+      <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
       <!--Menu-->
-        <nav class=" bg-dark navbar-dark navLeft h-100">
-            <!-- Brand -->
-            <a class="navbar-brand" href="#"><img src="assets/img/Logo.png" style="width: 13vw;" class="logoImg" alt="Logo"></a>
-            <!-- <a href="https://fr.vecteezy.com/vecteur-libre/pizza-logo">Pizza Logo Vecteurs par Vecteezy</a> -->
+      <header class="masthead mb-auto bg-warning">
+        <div class="inner">
+            <div class="row">
+                
+            
+            <img class="col-2" src="./assets/img/Logo.png" alt="logo">
           
-            <!-- Links -->
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link" href="welcome.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="picture.html">Picture</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="menu.html">Menu</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="restaurant.html">Restaurant</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact</a>
-              </li>
-            </ul>
+          <nav class="nav nav-masthead justify-content-center align-self-end">
+            <a class="nav-link text-dark active" href="welcome.html">Home</a>
+            <a class="nav-link text-dark" href="menu.html">Menu</a>
+            <a class="nav-link text-dark" href="picture.html">Pictures</a>
+            <a class="nav-link text-dark" href="restaurant.html">Restaurant</a>
+            <a class="nav-link text-dark" href="contact.html">Contact</a>
           </nav>
+          </div>
+        </div>
+      </header>
           <!--Menu-->
+        </div>
         <!-- Image gallery -->
 
-  <div class="row divGallery ml-auto">
+  <div class="row text-center divGallery ml-auto">
 <div class="col-12 gallery" id="gallery">
   <a target="_blank" href="assets/img/Pizza1.jpg">
     <img src="assets/img/Pizza1.jpg" class="img-thumbnail  imgGallery " alt="Pizza">
@@ -97,10 +91,9 @@
         </ul>
       </nav>
     <!-- Pagination -->
-</div>
     <!-- Image gallery -->
 
-  </section>
+  </div>
 
 <!-- Footer -->
 <div class="footer-v1 footer">
